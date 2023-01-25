@@ -1,0 +1,5 @@
+max_score: 0
+total_score: 0
+dark_theme_is_active: true
+critical_program_termination: false
+table: 0 2 0 0 0 0 0 0 0 0 2 0 0 0 0 0

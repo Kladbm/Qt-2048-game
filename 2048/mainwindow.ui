@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>467</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>467</width>
+    <height>540</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>467</width>
+    <height>540</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(187, 173, 160);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="newGame_btn">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>25</y>
+      <width>121</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(143, 122, 102);</string>
+    </property>
+    <property name="text">
+     <string>New Game</string>
+    </property>
+    <property name="shortcut">
+     <string>N</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B13">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>241</x>
+      <y>77</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B14">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>354</x>
+      <y>77</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>134</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_6"/>
+   </widget>
+   <widget class="QLabel" name="B31">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>303</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B33">
+    <property name="geometry">
+     <rect>
+      <x>241</x>
+      <y>303</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B32">
+    <property name="geometry">
+     <rect>
+      <x>128</x>
+      <y>303</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B34">
+    <property name="geometry">
+     <rect>
+      <x>354</x>
+      <y>303</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B44">
+    <property name="geometry">
+     <rect>
+      <x>354</x>
+      <y>416</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B43">
+    <property name="geometry">
+     <rect>
+      <x>241</x>
+      <y>416</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B41">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>416</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B42">
+    <property name="geometry">
+     <rect>
+      <x>128</x>
+      <y>416</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B21">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>190</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B24">
+    <property name="geometry">
+     <rect>
+      <x>354</x>
+      <y>190</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B23">
+    <property name="geometry">
+     <rect>
+      <x>241</x>
+      <y>190</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B22">
+    <property name="geometry">
+     <rect>
+      <x>128</x>
+      <y>190</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B11">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>77</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B12">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>128</x>
+      <y>77</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Score_lbl">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>40</y>
+      <width>171</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Score: </string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>-4</x>
+      <y>-16</y>
+      <width>471</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(238,228,218,.50);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="status_label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>140</y>
+       <width>467</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>clear sans</family>
+       <pointsize>55</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color : #776E65;
+background-color: transparent;
+font-family: clear sans,helvetica neue,Arial,sans-serif;</string>
+     </property>
+     <property name="text">
+      <string>Game Over!</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="try_again_btn">
+     <property name="geometry">
+      <rect>
+       <x>163</x>
+       <y>230</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#8F7A66;
+color: #f9f6f2;</string>
+     </property>
+     <property name="text">
+      <string>Try again</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="Max_Score_lbl">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>171</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Best Score: </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="change_theme_button">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>20</y>
+      <width>48</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/2048/image/dark_theme.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B22_2">
+    <property name="geometry">
+     <rect>
+      <x>128</x>
+      <y>190</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B13_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>241</x>
+      <y>77</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B34_2">
+    <property name="geometry">
+     <rect>
+      <x>354</x>
+      <y>303</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B11_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>77</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B31_2">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>303</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B41_2">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>416</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B32_2">
+    <property name="geometry">
+     <rect>
+      <x>128</x>
+      <y>303</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B14_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>354</x>
+      <y>77</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B42_2">
+    <property name="geometry">
+     <rect>
+      <x>128</x>
+      <y>416</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B43_2">
+    <property name="geometry">
+     <rect>
+      <x>241</x>
+      <y>416</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B12_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>128</x>
+      <y>77</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B33_2">
+    <property name="geometry">
+     <rect>
+      <x>241</x>
+      <y>303</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B21_2">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>190</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B23_2">
+    <property name="geometry">
+     <rect>
+      <x>241</x>
+      <y>190</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B24_2">
+    <property name="geometry">
+     <rect>
+      <x>354</x>
+      <y>190</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="B44_2">
+    <property name="geometry">
+     <rect>
+      <x>354</x>
+      <y>416</y>
+      <width>98</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>110</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #cdc1b4; 
+border-radius: 3px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>20</number>
+    </property>
+   </widget>
+   <zorder>B44_2</zorder>
+   <zorder>B43_2</zorder>
+   <zorder>B42_2</zorder>
+   <zorder>B41_2</zorder>
+   <zorder>B34_2</zorder>
+   <zorder>B33_2</zorder>
+   <zorder>B32_2</zorder>
+   <zorder>B31_2</zorder>
+   <zorder>B24_2</zorder>
+   <zorder>B23_2</zorder>
+   <zorder>B22_2</zorder>
+   <zorder>B21_2</zorder>
+   <zorder>B14_2</zorder>
+   <zorder>B13_2</zorder>
+   <zorder>B12_2</zorder>
+   <zorder>B11_2</zorder>
+   <zorder>change_theme_button</zorder>
+   <zorder>Max_Score_lbl</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>B31</zorder>
+   <zorder>B33</zorder>
+   <zorder>B32</zorder>
+   <zorder>B34</zorder>
+   <zorder>B44</zorder>
+   <zorder>B43</zorder>
+   <zorder>B41</zorder>
+   <zorder>B42</zorder>
+   <zorder>B21</zorder>
+   <zorder>newGame_btn</zorder>
+   <zorder>B13</zorder>
+   <zorder>B14</zorder>
+   <zorder>B24</zorder>
+   <zorder>B23</zorder>
+   <zorder>B22</zorder>
+   <zorder>B11</zorder>
+   <zorder>B12</zorder>
+   <zorder>Score_lbl</zorder>
+   <zorder>frame</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>467</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
